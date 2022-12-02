@@ -1,4 +1,4 @@
-name: Build and test PRs
+name: Build No Cache
 
 on:
   workflow_dispatch:
@@ -24,7 +24,6 @@ jobs:
         uses: actions/setup-dotnet@309ea6168cc717f9cee1941ab753b5889048ba47
         with:
           dotnet-version: '7.0'
-          cache: true
       - name: Restore
         run: dotnet restore --locked-mode
       - name: Build

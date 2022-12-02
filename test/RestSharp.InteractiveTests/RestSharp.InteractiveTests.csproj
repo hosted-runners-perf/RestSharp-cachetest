@@ -3,6 +3,7 @@
         <OutputType>Exe</OutputType>
         <IsTestProject>false</IsTestProject>
         <TargetFrameworks>net6</TargetFrameworks>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\src\RestSharp\RestSharp.csproj" />

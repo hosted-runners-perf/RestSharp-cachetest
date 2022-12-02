@@ -2,6 +2,7 @@
     <PropertyGroup>
         <Nullable>disable</Nullable>
         <TargetFrameworks>net6</TargetFrameworks>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\src\RestSharp.Serializers.Xml\RestSharp.Serializers.Xml.csproj"/>

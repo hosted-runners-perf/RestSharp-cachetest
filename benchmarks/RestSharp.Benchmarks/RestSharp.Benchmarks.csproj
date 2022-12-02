@@ -5,6 +5,7 @@
         <IsPackable>false</IsPackable>
         <LangVersion>10</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     </PropertyGroup>
 
     <ItemGroup>

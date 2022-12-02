@@ -3,7 +3,7 @@
     <PropertyGroup>
         <IsTestProject>true</IsTestProject>
         <IsPackable>false</IsPackable>
-        <TargetFrameworks>net472;net6.0</TargetFrameworks>
+        <TargetFrameworks>net6.0</TargetFrameworks>
         <Nullable>disable</Nullable>
     </PropertyGroup>
 
@@ -16,9 +16,6 @@
         <PackageReference Include="xunit" Version="2.4.2"/>
         <PackageReference Include="AutoFixture" Version="4.17.0"/>
         <PackageReference Include="FluentAssertions" Version="6.8.0"/>
-    </ItemGroup>
-    <ItemGroup Condition="$(TargetFramework) == 'net472'">
-        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3" PrivateAssets="All"/>
     </ItemGroup>
 
     <ItemGroup>

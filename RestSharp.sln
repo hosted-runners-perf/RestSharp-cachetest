@@ -29,8 +29,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestSharp.Tests.Serializers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestSharp.Serializers.Xml", "src\RestSharp.Serializers.Xml\RestSharp.Serializers.Xml.csproj", "{4A35B1C5-520D-4267-BA70-2DCEAC0A5662}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestSharp.Tests.Legacy", "test\RestSharp.Tests.Legacy\RestSharp.Tests.Legacy.csproj", "{5A8A5BBE-28DA-4C89-B393-BE39A96E8DC0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestSharp.Serializers.CsvHelper", "src\RestSharp.Serializers.CsvHelper\RestSharp.Serializers.CsvHelper.csproj", "{2150E333-8FDC-42A3-9474-1A3956D46DE8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestSharp.Tests.Serializers.Csv", "test\RestSharp.Tests.Serializers.Csv\RestSharp.Tests.Serializers.Csv.csproj", "{E6D94FFD-7811-40BE-ABC4-6D6AB41F0060}"
